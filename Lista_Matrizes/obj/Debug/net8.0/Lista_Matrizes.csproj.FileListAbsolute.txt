@@ -1,0 +1,15 @@
+C:\Users\cesar\source\repos\Lista_Matrizes\Lista_Matrizes\bin\Debug\net8.0\Lista_Matrizes.exe
+C:\Users\cesar\source\repos\Lista_Matrizes\Lista_Matrizes\bin\Debug\net8.0\Lista_Matrizes.deps.json
+C:\Users\cesar\source\repos\Lista_Matrizes\Lista_Matrizes\bin\Debug\net8.0\Lista_Matrizes.runtimeconfig.json
+C:\Users\cesar\source\repos\Lista_Matrizes\Lista_Matrizes\bin\Debug\net8.0\Lista_Matrizes.dll
+C:\Users\cesar\source\repos\Lista_Matrizes\Lista_Matrizes\bin\Debug\net8.0\Lista_Matrizes.pdb
+C:\Users\cesar\source\repos\Lista_Matrizes\Lista_Matrizes\obj\Debug\net8.0\Lista_Matrizes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cesar\source\repos\Lista_Matrizes\Lista_Matrizes\obj\Debug\net8.0\Lista_Matrizes.AssemblyInfoInputs.cache
+C:\Users\cesar\source\repos\Lista_Matrizes\Lista_Matrizes\obj\Debug\net8.0\Lista_Matrizes.AssemblyInfo.cs
+C:\Users\cesar\source\repos\Lista_Matrizes\Lista_Matrizes\obj\Debug\net8.0\Lista_Matrizes.csproj.CoreCompileInputs.cache
+C:\Users\cesar\source\repos\Lista_Matrizes\Lista_Matrizes\obj\Debug\net8.0\Lista_Matrizes.sourcelink.json
+C:\Users\cesar\source\repos\Lista_Matrizes\Lista_Matrizes\obj\Debug\net8.0\Lista_Matrizes.dll
+C:\Users\cesar\source\repos\Lista_Matrizes\Lista_Matrizes\obj\Debug\net8.0\refint\Lista_Matrizes.dll
+C:\Users\cesar\source\repos\Lista_Matrizes\Lista_Matrizes\obj\Debug\net8.0\Lista_Matrizes.pdb
+C:\Users\cesar\source\repos\Lista_Matrizes\Lista_Matrizes\obj\Debug\net8.0\Lista_Matrizes.genruntimeconfig.cache
+C:\Users\cesar\source\repos\Lista_Matrizes\Lista_Matrizes\obj\Debug\net8.0\ref\Lista_Matrizes.dll

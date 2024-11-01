@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\cesar\\source\\repos\\Lista_Matrizes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2F28110-57E5-40B7-906B-A7656DD8A1E0}|Lista_Matrizes\\Lista_Matrizes.csproj|c:\\users\\cesar\\source\\repos\\lista_matrizes\\lista_matrizes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2F28110-57E5-40B7-906B-A7656DD8A1E0}|Lista_Matrizes\\Lista_Matrizes.csproj|solutionrelative:lista_matrizes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2F28110-57E5-40B7-906B-A7656DD8A1E0}|Lista_Matrizes\\Lista_Matrizes.csproj|c:\\users\\cesar\\source\\repos\\lista_matrizes\\lista_matrizes\\exercicio6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F28110-57E5-40B7-906B-A7656DD8A1E0}|Lista_Matrizes\\Lista_Matrizes.csproj|solutionrelative:lista_matrizes\\exercicio6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F28110-57E5-40B7-906B-A7656DD8A1E0}|Lista_Matrizes\\Lista_Matrizes.csproj|c:\\users\\cesar\\source\\repos\\lista_matrizes\\lista_matrizes\\lista_matrizes.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F2F28110-57E5-40B7-906B-A7656DD8A1E0}|Lista_Matrizes\\Lista_Matrizes.csproj|solutionrelative:lista_matrizes\\lista_matrizes.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F28110-57E5-40B7-906B-A7656DD8A1E0}|Lista_Matrizes\\Lista_Matrizes.csproj|c:\\users\\cesar\\source\\repos\\lista_matrizes\\lista_matrizes\\lista_matrizes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F2F28110-57E5-40B7-906B-A7656DD8A1E0}|Lista_Matrizes\\Lista_Matrizes.csproj|solutionrelative:lista_matrizes\\lista_matrizes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F28110-57E5-40B7-906B-A7656DD8A1E0}|Lista_Matrizes\\Lista_Matrizes.csproj|c:\\users\\cesar\\source\\repos\\lista_matrizes\\lista_matrizes\\exercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F28110-57E5-40B7-906B-A7656DD8A1E0}|Lista_Matrizes\\Lista_Matrizes.csproj|solutionrelative:lista_matrizes\\exercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F28110-57E5-40B7-906B-A7656DD8A1E0}|Lista_Matrizes\\Lista_Matrizes.csproj|c:\\users\\cesar\\source\\repos\\lista_matrizes\\lista_matrizes\\exercicio1e2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F28110-57E5-40B7-906B-A7656DD8A1E0}|Lista_Matrizes\\Lista_Matrizes.csproj|solutionrelative:lista_matrizes\\exercicio1e2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F28110-57E5-40B7-906B-A7656DD8A1E0}|Lista_Matrizes\\Lista_Matrizes.csproj|c:\\users\\cesar\\source\\repos\\lista_matrizes\\lista_matrizes\\exercicio4_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F28110-57E5-40B7-906B-A7656DD8A1E0}|Lista_Matrizes\\Lista_Matrizes.csproj|solutionrelative:lista_matrizes\\exercicio4_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F28110-57E5-40B7-906B-A7656DD8A1E0}|Lista_Matrizes\\Lista_Matrizes.csproj|c:\\users\\cesar\\source\\repos\\lista_matrizes\\lista_matrizes\\bibliotecamatriz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F28110-57E5-40B7-906B-A7656DD8A1E0}|Lista_Matrizes\\Lista_Matrizes.csproj|solutionrelative:lista_matrizes\\bibliotecamatriz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +38,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\Lista_Matrizes\\Lista_Matrizes\\Program.cs",
-              "RelativeDocumentMoniker": "Lista_Matrizes\\Program.cs",
-              "ToolTip": "C:\\Users\\cesar\\source\\repos\\Lista_Matrizes\\Lista_Matrizes\\Program.cs",
-              "RelativeToolTip": "Lista_Matrizes\\Program.cs",
+              "DocumentIndex": 2,
+              "Title": "Lista_Matrizes",
+              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\Lista_Matrizes\\Lista_Matrizes\\Lista_Matrizes.csproj",
+              "RelativeDocumentMoniker": "Lista_Matrizes\\Lista_Matrizes.csproj",
+              "ToolTip": "C:\\Users\\cesar\\source\\repos\\Lista_Matrizes\\Lista_Matrizes\\Lista_Matrizes.csproj",
+              "RelativeToolTip": "Lista_Matrizes\\Lista_Matrizes.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-01T13:19:56.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lista_Matrizes",
+              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\Lista_Matrizes\\Lista_Matrizes\\Lista_Matrizes.csproj",
+              "RelativeDocumentMoniker": "Lista_Matrizes\\Lista_Matrizes.csproj",
+              "ToolTip": "C:\\Users\\cesar\\source\\repos\\Lista_Matrizes\\Lista_Matrizes\\Lista_Matrizes.csproj",
+              "RelativeToolTip": "Lista_Matrizes\\Lista_Matrizes.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-01T13:19:59.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "exercicio6.cs",
+              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\Lista_Matrizes\\Lista_Matrizes\\exercicio6.cs",
+              "RelativeDocumentMoniker": "Lista_Matrizes\\exercicio6.cs",
+              "ToolTip": "C:\\Users\\cesar\\source\\repos\\Lista_Matrizes\\Lista_Matrizes\\exercicio6.cs*",
+              "RelativeToolTip": "Lista_Matrizes\\exercicio6.cs*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwCoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T11:58:27.112Z",
+              "WhenOpened": "2024-11-01T12:55:03.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "exercicio3.cs",
+              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\Lista_Matrizes\\Lista_Matrizes\\exercicio3.cs",
+              "RelativeDocumentMoniker": "Lista_Matrizes\\exercicio3.cs",
+              "ToolTip": "C:\\Users\\cesar\\source\\repos\\Lista_Matrizes\\Lista_Matrizes\\exercicio3.cs",
+              "RelativeToolTip": "Lista_Matrizes\\exercicio3.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T12:32:00.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Exercicio1e2.cs",
+              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\Lista_Matrizes\\Lista_Matrizes\\Exercicio1e2.cs",
+              "RelativeDocumentMoniker": "Lista_Matrizes\\Exercicio1e2.cs",
+              "ToolTip": "C:\\Users\\cesar\\source\\repos\\Lista_Matrizes\\Lista_Matrizes\\Exercicio1e2.cs",
+              "RelativeToolTip": "Lista_Matrizes\\Exercicio1e2.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T12:34:43.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "exercicio4_5.cs",
+              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\Lista_Matrizes\\Lista_Matrizes\\exercicio4_5.cs",
+              "RelativeDocumentMoniker": "Lista_Matrizes\\exercicio4_5.cs",
+              "ToolTip": "C:\\Users\\cesar\\source\\repos\\Lista_Matrizes\\Lista_Matrizes\\exercicio4_5.cs",
+              "RelativeToolTip": "Lista_Matrizes\\exercicio4_5.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:06:00.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BibliotecaMatriz.cs",
+              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\Lista_Matrizes\\Lista_Matrizes\\BibliotecaMatriz.cs",
+              "RelativeDocumentMoniker": "Lista_Matrizes\\BibliotecaMatriz.cs",
+              "ToolTip": "C:\\Users\\cesar\\source\\repos\\Lista_Matrizes\\Lista_Matrizes\\BibliotecaMatriz.cs",
+              "RelativeToolTip": "Lista_Matrizes\\BibliotecaMatriz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T11:58:58.417Z",
               "EditorCaption": ""
             }
           ]
