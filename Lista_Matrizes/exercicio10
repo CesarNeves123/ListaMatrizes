@@ -15,19 +15,19 @@ class exercicio10
 
 static void Main()
     {
-        int r, c;
+        int linha, colunas;
         Console.WriteLine("Digite o número de regiões (linhas) R:");
-        r = int.Parse(Console.ReadLine());
+        linha = int.Parse(Console.ReadLine());
         Console.WriteLine("Digite o número de cidades (colunas) C:");
-        c = int.Parse(Console.ReadLine());
+        coluna = int.Parse(Console.ReadLine());
 
-        int[,] matriz = new int[r, c];
+        int[,] matriz = new int[linha, coluna];
         matriz.gera(matriz); // Gera a matriz
         Console.WriteLine("Matriz 1 gerada:");
         matriz.mostra(matriz); // Mostra a matriz
 
         Console.WriteLine("Força Total das Regiões:");
-        for (int i = 0; i < r; i++)
+        for (int i = 0; i < linha; i++)
         {
             int soma = SomarLinha(matriz, i);
             Console.WriteLine($"Região {i + 1}: {soma} tropas");
