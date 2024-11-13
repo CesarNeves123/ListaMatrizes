@@ -1,0 +1,39 @@
+using System;
+
+class exercicio8
+{
+    static void Main()
+    {
+        int n;
+        Console.WriteLine("Digite o número de coordenadas:");
+        n = int.Parse(Console.ReadLine());
+
+        int[,] coord = new int[n, 2];
+        bool msmlugar = false;
+
+        for (int i = 0; i < n; i++)
+        {
+            Console.WriteLine($"Digite as coordenadas {i + 1} (x y): Por favor digite-as usando espaço por exemplo 1 2");
+            string ent = Console.ReadLine();
+            int x = int.Parse(ent[0].ToString());
+            int y = int.Parse(ent[2].ToString());
+
+            coord[i, 0] = x;
+            coord[i, 1] = y;
+
+            for (int j = 0; j < i; j++)
+            {
+                if (coord[j, 0] == x && coord[j, 1] == y)
+                {
+                    msmlugar = true;
+                    
+                }
+            }
+
+            if (msmlugar)
+                break;
+        }
+
+        Console.WriteLine(msmlugar ? 1 : 0);
+    }
+}
