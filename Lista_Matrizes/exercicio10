@@ -1,0 +1,38 @@
+using BibliotecaMatrizes;
+using System;
+
+class exercicio10
+{
+    static int SomarLinha(int[,] mat, int linha)
+    {
+        int soma = 0;
+        for (int j = 0; j < matriz.GetLength(1); j++)
+        {
+            soma += matriz[linha, j];
+        }
+        return soma;
+    }
+
+static void Main()
+    {
+        int r, c;
+        Console.WriteLine("Digite o número de regiões (linhas) R:");
+        r = int.Parse(Console.ReadLine());
+        Console.WriteLine("Digite o número de cidades (colunas) C:");
+        c = int.Parse(Console.ReadLine());
+
+        int[,] matriz = new int[r, c];
+        matriz.gera(matriz); // Gera a matriz
+        Console.WriteLine("Matriz 1 gerada:");
+        matriz.mostra(matriz); // Mostra a matriz
+
+        Console.WriteLine("Força Total das Regiões:");
+        for (int i = 0; i < r; i++)
+        {
+            int soma = SomarLinha(matriz, i);
+            Console.WriteLine($"Região {i + 1}: {soma} tropas");
+        }
+    }
+}
+ 
+  
