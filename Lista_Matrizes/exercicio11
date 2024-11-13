@@ -1,0 +1,76 @@
+using BibliotecaMatriz;
+using System;
+
+class Program
+{
+    static int SomadiagonalPrincipal(int[,] mat)
+    {
+        int soma = 0;
+        int linhas = mat.GetLength(0);
+        for (int i = 0; i < linhas; i++)
+        {
+            soma += mat[i, i];
+            Console.Write($"{mat[i, i]}|");
+        }
+        Console.WriteLine();
+        return soma;
+    }
+
+    static int SomadiagonalSecundaria(int[,] mat)
+    {
+        int soma = 0;
+        int linhas = mat.GetLength(0);
+        int colunas = mat.GetLength(1);
+        int j = colunas - 1;
+
+        for (int i = 0; i < linhas; i++, j--)
+        {
+            soma += mat[i, j];
+            Console.Write($"{mat[i, j]}|");
+        }
+        Console.WriteLine();
+        return soma;
+    }
+
+    static void Main()
+    {
+        int linhas, colunas;
+        Console.WriteLine("Digite o número de linhas:");
+        linhas = int.Parse(Console.ReadLine());
+        Console.WriteLine("Digite o número de colunas:");
+        colunas = int.Parse(Console.ReadLine());
+
+        if (linhas == colunas)
+        {
+            int[,] matrix = new int[linhas, colunas]; // criando a matriz
+            matriz.gera(matrix);
+            Console.WriteLine("Matriz gerada:");
+            matriz.mostra(matrix);
+
+            Console.Write("Soma da diagonal principal: ");
+            int somaPrincipal = SomadiagonalPrincipal(matrix);
+            Console.WriteLine(somaPrincipal);
+
+            Console.Write("Soma da diagonal secundária: ");
+            int somaSecundaria = SomadiagonalSecundaria(matrix);
+            Console.WriteLine(somaSecundaria);
+
+            if (somaPrincipal > somaSecundaria)
+            {
+                Console.WriteLine("A diagonal principal tem o maior tesouro!");
+            }
+            else if (somaSecundaria > somaPrincipal)
+            {
+                Console.WriteLine("A diagonal secundária tem o maior tesouro!");
+            }
+            else
+            {
+                Console.WriteLine("As duas diagonais têm a mesma quantidade de tesouro!");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Por favor, insira o mesmo número de colunas e linhas.");
+        }
+    }
+}
