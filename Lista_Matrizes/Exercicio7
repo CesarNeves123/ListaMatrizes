@@ -1,0 +1,115 @@
+using System;
+using BibliotecaMatrizes;
+
+
+
+public class exercicio7
+{
+    static int[,] SomaMatrizes(int[,] mat, int[,] mat2)
+    {
+        int linhas = mat.GetLength(0); // pega as linhas
+        int colunas = mat.GetLength(1); // pega as colunas
+        int[,] soma = new int[linhas, colunas];
+
+        for (int i = 0; i < linhas; i++)
+        {
+            for (int j = 0; j < colunas; j++)
+            {
+                soma[i, j] = mat[i, j] + mat2[i, j];
+            }
+        }
+
+        return soma;
+    }
+    static int[,] SubMatrizes(int[,] mat, int[,] mat2)
+    {
+        int linhas = mat.GetLength(0); // pega as linhas
+        int colunas = mat.GetLength(1); // pega as colunas
+        int[,] subtrair = new int[linhas, colunas];
+
+        for (int i = 0; i < linhas; i++)
+        {
+            for (int j = 0; j < colunas; j++)
+            {
+                subtrair[i, j] = mat[i, j] - mat2[i, j];
+            }
+        }
+
+        return subtrair;
+
+    }
+    static void AdicionarConstante(int[,] matriz, int n, int m, double constante)
+    {
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < m; j++)
+            {
+                matriz[i, j] += (int) constante;
+            }
+        }
+    
+
+
+
+}
+
+    public static void Main()
+    {
+
+        int linhas, colunas;
+         char op;
+        Console.WriteLine("Digite a quantidade de linhas da matriz:");
+        linhas = int.Parse(Console.ReadLine());
+        Console.WriteLine("Digite a quantidade de colunas da matriz:");
+        colunas = int.Parse(Console.ReadLine());
+
+        int[,] matriz1 = new int[linhas, colunas]; // criando a matriz
+        matriz.gera(matriz1); // Gera a matriz
+        Console.WriteLine("Matriz 1 gerada:");
+        Matriz.mostra(matriz1); // Mostra a matriz
+
+        int[,] matriz2 = new int[linhas, colunas]; // criando a matriz
+        matriz.gera(matriz2); // Gera a matriz
+        Console.WriteLine("Matriz 2 gerada:");
+        Matriz.mostra(matriz2); // Mostra a matriz
+
+
+        Console.WriteLine("Digite qual operação quer realizar +, - ou adicionar uma constante usando o simbolo @:");
+        op = char.Parse(Console.ReadLine());
+        if (op == '+')
+        {
+            int[,] soma = SomaMatrizes(matriz1, matriz2);
+
+            Console.WriteLine("A soma das matrizes é:");
+            matriz.mostra(soma);
+        }
+        else if (op == '-')
+        {
+            int[,] subtrair = SubMatrizes(matriz1, matriz2);
+
+            Console.WriteLine("A soma das matrizes é:");
+            matriz.mostra(subtrair);
+
+        }
+        else if (op == '@')
+        {
+            Console.WriteLine("Digite a constante a ser adicionada:");
+            double constante = double.Parse(Console.ReadLine());
+            AdicionarConstante(matriz1, linhas, colunas, constante);
+            AdicionarConstante(matriz2, linhas, colunas, constante);
+            Console.WriteLine("Constante adicionada às duas matrizes.");
+            Console.WriteLine($"Matriz 1 ");
+            matriz.mostra(matriz1);
+            Console.WriteLine($"Matriz 2");
+            matriz.mostra(matriz2);
+
+
+
+        }
+        else
+        {
+            Console.WriteLine("Opção invalida");
+
+        }
+    }
+    }
